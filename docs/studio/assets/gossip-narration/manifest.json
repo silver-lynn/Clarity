@@ -1,0 +1,1434 @@
+{
+  "rate": 1,
+  "voice": "Microsoft Huihui Desktop",
+  "clips": [
+    {
+      "text": "哎，甄嬛在宫里被一屋子人围着的那段，你看过吧？祺贵人一上来就闹了，连孩子是谁的都扯出来了。",
+      "marks": [
+        {
+          "time": 0.08,
+          "start": 0,
+          "length": 1
+        },
+        {
+          "time": 0.7049375,
+          "start": 2,
+          "length": 2
+        },
+        {
+          "time": 1.171375,
+          "start": 4,
+          "length": 1
+        },
+        {
+          "time": 1.367125,
+          "start": 5,
+          "length": 1
+        },
+        {
+          "time": 1.5565625,
+          "start": 6,
+          "length": 1
+        },
+        {
+          "time": 1.742875,
+          "start": 7,
+          "length": 1
+        },
+        {
+          "time": 1.9115,
+          "start": 8,
+          "length": 1
+        },
+        {
+          "time": 2.0534375,
+          "start": 9,
+          "length": 2
+        },
+        {
+          "time": 2.3515,
+          "start": 11,
+          "length": 1
+        },
+        {
+          "time": 2.583,
+          "start": 12,
+          "length": 1
+        },
+        {
+          "time": 2.76,
+          "start": 13,
+          "length": 1
+        },
+        {
+          "time": 2.894,
+          "start": 14,
+          "length": 1
+        },
+        {
+          "time": 3.0056875,
+          "start": 15,
+          "length": 1
+        },
+        {
+          "time": 3.1709375,
+          "start": 16,
+          "length": 1
+        },
+        {
+          "time": 3.78975,
+          "start": 18,
+          "length": 1
+        },
+        {
+          "time": 3.947125,
+          "start": 19,
+          "length": 1
+        },
+        {
+          "time": 4.1769375,
+          "start": 20,
+          "length": 1
+        },
+        {
+          "time": 4.3263125,
+          "start": 21,
+          "length": 1
+        },
+        {
+          "time": 5.3083125,
+          "start": 23,
+          "length": 1
+        },
+        {
+          "time": 5.5095625,
+          "start": 24,
+          "length": 2
+        },
+        {
+          "time": 5.91475,
+          "start": 26,
+          "length": 1
+        },
+        {
+          "time": 6.075,
+          "start": 27,
+          "length": 2
+        },
+        {
+          "time": 6.4835625,
+          "start": 29,
+          "length": 1
+        },
+        {
+          "time": 6.63175,
+          "start": 30,
+          "length": 1
+        },
+        {
+          "time": 6.803,
+          "start": 31,
+          "length": 1
+        },
+        {
+          "time": 7.365,
+          "start": 33,
+          "length": 1
+        },
+        {
+          "time": 7.608,
+          "start": 34,
+          "length": 2
+        },
+        {
+          "time": 7.995,
+          "start": 36,
+          "length": 1
+        },
+        {
+          "time": 8.188375,
+          "start": 37,
+          "length": 1
+        },
+        {
+          "time": 8.36825,
+          "start": 38,
+          "length": 1
+        },
+        {
+          "time": 8.539125,
+          "start": 39,
+          "length": 1
+        },
+        {
+          "time": 8.745125,
+          "start": 40,
+          "length": 1
+        },
+        {
+          "time": 8.9721875,
+          "start": 41,
+          "length": 2
+        },
+        {
+          "time": 9.315,
+          "start": 43,
+          "length": 1
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-1.wav"
+    },
+    {
+      "text": "祺贵人当众指控甄嬛跟别人有私情。然后祺贵人又指控温实初是孩子的亲爹。她就咬死了这事，说孩子不是皇上的。",
+      "marks": [
+        {
+          "time": 0.0833125,
+          "start": 0,
+          "length": 1
+        },
+        {
+          "time": 0.2855,
+          "start": 1,
+          "length": 2
+        },
+        {
+          "time": 0.7085,
+          "start": 3,
+          "length": 2
+        },
+        {
+          "time": 1.08525,
+          "start": 5,
+          "length": 2
+        },
+        {
+          "time": 1.5235,
+          "start": 7,
+          "length": 2
+        },
+        {
+          "time": 1.96425,
+          "start": 9,
+          "length": 1
+        },
+        {
+          "time": 2.161625,
+          "start": 10,
+          "length": 2
+        },
+        {
+          "time": 2.569625,
+          "start": 12,
+          "length": 1
+        },
+        {
+          "time": 2.76,
+          "start": 13,
+          "length": 2
+        },
+        {
+          "time": 4.0664375,
+          "start": 16,
+          "length": 2
+        },
+        {
+          "time": 4.5558125,
+          "start": 18,
+          "length": 1
+        },
+        {
+          "time": 4.7685625,
+          "start": 19,
+          "length": 2
+        },
+        {
+          "time": 5.168,
+          "start": 21,
+          "length": 1
+        },
+        {
+          "time": 5.342875,
+          "start": 22,
+          "length": 2
+        },
+        {
+          "time": 5.787625,
+          "start": 24,
+          "length": 1
+        },
+        {
+          "time": 5.9675,
+          "start": 25,
+          "length": 1
+        },
+        {
+          "time": 6.138375,
+          "start": 26,
+          "length": 1
+        },
+        {
+          "time": 6.371125,
+          "start": 27,
+          "length": 1
+        },
+        {
+          "time": 6.5725,
+          "start": 28,
+          "length": 2
+        },
+        {
+          "time": 6.9136875,
+          "start": 30,
+          "length": 1
+        },
+        {
+          "time": 7.076125,
+          "start": 31,
+          "length": 1
+        },
+        {
+          "time": 7.33325,
+          "start": 32,
+          "length": 1
+        },
+        {
+          "time": 8.364625,
+          "start": 34,
+          "length": 1
+        },
+        {
+          "time": 8.5263125,
+          "start": 35,
+          "length": 1
+        },
+        {
+          "time": 8.761375,
+          "start": 36,
+          "length": 1
+        },
+        {
+          "time": 8.95575,
+          "start": 37,
+          "length": 1
+        },
+        {
+          "time": 9.1359375,
+          "start": 38,
+          "length": 1
+        },
+        {
+          "time": 9.3276875,
+          "start": 39,
+          "length": 1
+        },
+        {
+          "time": 9.4926875,
+          "start": 40,
+          "length": 1
+        },
+        {
+          "time": 10.1095625,
+          "start": 42,
+          "length": 1
+        },
+        {
+          "time": 10.3316875,
+          "start": 43,
+          "length": 2
+        },
+        {
+          "time": 10.724625,
+          "start": 45,
+          "length": 2
+        },
+        {
+          "time": 11.066875,
+          "start": 47,
+          "length": 2
+        },
+        {
+          "time": 11.5291875,
+          "start": 49,
+          "length": 1
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-2.wav"
+    },
+    {
+      "text": "皇后当时就支持祺贵人。皇上听着听着也开始怀疑甄嬛了。祺贵人带来的斐雯、静白一个接一个出来作证。这么多人在那儿说，甄嬛真是有嘴都说不清。",
+      "marks": [
+        {
+          "time": 0.0790625,
+          "start": 0,
+          "length": 2
+        },
+        {
+          "time": 0.5220625,
+          "start": 2,
+          "length": 2
+        },
+        {
+          "time": 1.018875,
+          "start": 4,
+          "length": 1
+        },
+        {
+          "time": 1.19975,
+          "start": 5,
+          "length": 2
+        },
+        {
+          "time": 1.6308125,
+          "start": 7,
+          "length": 1
+        },
+        {
+          "time": 1.8393125,
+          "start": 8,
+          "length": 2
+        },
+        {
+          "time": 3.0926875,
+          "start": 11,
+          "length": 2
+        },
+        {
+          "time": 3.619125,
+          "start": 13,
+          "length": 1
+        },
+        {
+          "time": 3.843625,
+          "start": 14,
+          "length": 1
+        },
+        {
+          "time": 4.0199375,
+          "start": 15,
+          "length": 1
+        },
+        {
+          "time": 4.255,
+          "start": 16,
+          "length": 1
+        },
+        {
+          "time": 4.4313125,
+          "start": 17,
+          "length": 1
+        },
+        {
+          "time": 4.620625,
+          "start": 18,
+          "length": 2
+        },
+        {
+          "time": 4.985125,
+          "start": 20,
+          "length": 2
+        },
+        {
+          "time": 5.4384375,
+          "start": 22,
+          "length": 2
+        },
+        {
+          "time": 5.838375,
+          "start": 24,
+          "length": 1
+        },
+        {
+          "time": 6.8206875,
+          "start": 26,
+          "length": 1
+        },
+        {
+          "time": 7.0216875,
+          "start": 27,
+          "length": 1
+        },
+        {
+          "time": 7.181375,
+          "start": 28,
+          "length": 1
+        },
+        {
+          "time": 7.4386875,
+          "start": 29,
+          "length": 2
+        },
+        {
+          "time": 7.784875,
+          "start": 31,
+          "length": 1
+        },
+        {
+          "time": 7.889125,
+          "start": 32,
+          "length": 1
+        },
+        {
+          "time": 8.0885,
+          "start": 33,
+          "length": 1
+        },
+        {
+          "time": 8.727125,
+          "start": 35,
+          "length": 1
+        },
+        {
+          "time": 8.9391875,
+          "start": 36,
+          "length": 1
+        },
+        {
+          "time": 9.1028125,
+          "start": 37,
+          "length": 2
+        },
+        {
+          "time": 9.457375,
+          "start": 39,
+          "length": 1
+        },
+        {
+          "time": 9.639625,
+          "start": 40,
+          "length": 2
+        },
+        {
+          "time": 9.98625,
+          "start": 42,
+          "length": 2
+        },
+        {
+          "time": 10.331375,
+          "start": 44,
+          "length": 2
+        },
+        {
+          "time": 11.507,
+          "start": 47,
+          "length": 2
+        },
+        {
+          "time": 11.7803125,
+          "start": 49,
+          "length": 1
+        },
+        {
+          "time": 11.94475,
+          "start": 50,
+          "length": 1
+        },
+        {
+          "time": 12.207,
+          "start": 51,
+          "length": 1
+        },
+        {
+          "time": 12.4016875,
+          "start": 52,
+          "length": 2
+        },
+        {
+          "time": 12.7095,
+          "start": 54,
+          "length": 1
+        },
+        {
+          "time": 13.3464375,
+          "start": 56,
+          "length": 2
+        },
+        {
+          "time": 13.7923125,
+          "start": 58,
+          "length": 2
+        },
+        {
+          "time": 14.1340625,
+          "start": 60,
+          "length": 1
+        },
+        {
+          "time": 14.322875,
+          "start": 61,
+          "length": 1
+        },
+        {
+          "time": 14.55225,
+          "start": 62,
+          "length": 1
+        },
+        {
+          "time": 14.723125,
+          "start": 63,
+          "length": 3
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-3.wav"
+    },
+    {
+      "text": "可温实初不是甄嬛的情人啊。两个人当然都不认。甄嬛说没这回事，温实初也说没有，可皇上已经听进去了。",
+      "marks": [
+        {
+          "time": 0.0820625,
+          "start": 0,
+          "length": 1
+        },
+        {
+          "time": 0.257625,
+          "start": 1,
+          "length": 1
+        },
+        {
+          "time": 0.4350625,
+          "start": 2,
+          "length": 1
+        },
+        {
+          "time": 0.6036875,
+          "start": 3,
+          "length": 1
+        },
+        {
+          "time": 0.8485625,
+          "start": 4,
+          "length": 2
+        },
+        {
+          "time": 1.186625,
+          "start": 6,
+          "length": 2
+        },
+        {
+          "time": 1.5705625,
+          "start": 8,
+          "length": 1
+        },
+        {
+          "time": 1.7609375,
+          "start": 9,
+          "length": 2
+        },
+        {
+          "time": 2.1638125,
+          "start": 11,
+          "length": 1
+        },
+        {
+          "time": 3.1410625,
+          "start": 13,
+          "length": 1
+        },
+        {
+          "time": 3.3723125,
+          "start": 14,
+          "length": 1
+        },
+        {
+          "time": 3.5216875,
+          "start": 15,
+          "length": 1
+        },
+        {
+          "time": 3.779625,
+          "start": 16,
+          "length": 2
+        },
+        {
+          "time": 4.2266875,
+          "start": 18,
+          "length": 1
+        },
+        {
+          "time": 4.3936875,
+          "start": 19,
+          "length": 1
+        },
+        {
+          "time": 4.5416875,
+          "start": 20,
+          "length": 1
+        },
+        {
+          "time": 5.54025,
+          "start": 22,
+          "length": 2
+        },
+        {
+          "time": 6.0088125,
+          "start": 24,
+          "length": 1
+        },
+        {
+          "time": 6.26025,
+          "start": 25,
+          "length": 1
+        },
+        {
+          "time": 6.452,
+          "start": 26,
+          "length": 1
+        },
+        {
+          "time": 6.6125625,
+          "start": 27,
+          "length": 1
+        },
+        {
+          "time": 6.782,
+          "start": 28,
+          "length": 1
+        },
+        {
+          "time": 7.3949375,
+          "start": 30,
+          "length": 1
+        },
+        {
+          "time": 7.58025,
+          "start": 31,
+          "length": 1
+        },
+        {
+          "time": 7.750625,
+          "start": 32,
+          "length": 1
+        },
+        {
+          "time": 7.9926875,
+          "start": 33,
+          "length": 1
+        },
+        {
+          "time": 8.1540625,
+          "start": 34,
+          "length": 1
+        },
+        {
+          "time": 8.333125,
+          "start": 35,
+          "length": 2
+        },
+        {
+          "time": 9.10025,
+          "start": 38,
+          "length": 1
+        },
+        {
+          "time": 9.28025,
+          "start": 39,
+          "length": 2
+        },
+        {
+          "time": 9.7781875,
+          "start": 41,
+          "length": 2
+        },
+        {
+          "time": 10.186875,
+          "start": 43,
+          "length": 1
+        },
+        {
+          "time": 10.4210625,
+          "start": 44,
+          "length": 2
+        },
+        {
+          "time": 10.788375,
+          "start": 46,
+          "length": 1
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-4.wav"
+    },
+    {
+      "text": "然后皇上就要求滴血验亲：温实初和六阿哥的血居然在第一碗水里融到了一起。哎呀，看到这儿真的替甄嬛捏把汗。她怎么解释啊？",
+      "marks": [
+        {
+          "time": 0.0780625,
+          "start": 0,
+          "length": 2
+        },
+        {
+          "time": 0.5509375,
+          "start": 2,
+          "length": 2
+        },
+        {
+          "time": 1.0785625,
+          "start": 4,
+          "length": 1
+        },
+        {
+          "time": 1.2665,
+          "start": 5,
+          "length": 2
+        },
+        {
+          "time": 1.7186875,
+          "start": 7,
+          "length": 1
+        },
+        {
+          "time": 1.8933125,
+          "start": 8,
+          "length": 1
+        },
+        {
+          "time": 2.14025,
+          "start": 9,
+          "length": 1
+        },
+        {
+          "time": 2.34775,
+          "start": 10,
+          "length": 1
+        },
+        {
+          "time": 3.0105625,
+          "start": 12,
+          "length": 1
+        },
+        {
+          "time": 3.199875,
+          "start": 13,
+          "length": 1
+        },
+        {
+          "time": 3.3708125,
+          "start": 14,
+          "length": 1
+        },
+        {
+          "time": 3.61325,
+          "start": 15,
+          "length": 1
+        },
+        {
+          "time": 3.8243125,
+          "start": 16,
+          "length": 1
+        },
+        {
+          "time": 3.9995625,
+          "start": 17,
+          "length": 2
+        },
+        {
+          "time": 4.333125,
+          "start": 19,
+          "length": 1
+        },
+        {
+          "time": 4.43675,
+          "start": 20,
+          "length": 1
+        },
+        {
+          "time": 4.67475,
+          "start": 21,
+          "length": 2
+        },
+        {
+          "time": 5.027,
+          "start": 23,
+          "length": 1
+        },
+        {
+          "time": 5.25,
+          "start": 24,
+          "length": 2
+        },
+        {
+          "time": 5.56875,
+          "start": 26,
+          "length": 1
+        },
+        {
+          "time": 5.80675,
+          "start": 27,
+          "length": 1
+        },
+        {
+          "time": 6.023125,
+          "start": 28,
+          "length": 1
+        },
+        {
+          "time": 6.21775,
+          "start": 29,
+          "length": 1
+        },
+        {
+          "time": 6.4395,
+          "start": 30,
+          "length": 1
+        },
+        {
+          "time": 6.6018125,
+          "start": 31,
+          "length": 1
+        },
+        {
+          "time": 6.7185625,
+          "start": 32,
+          "length": 2
+        },
+        {
+          "time": 7.9668125,
+          "start": 35,
+          "length": 2
+        },
+        {
+          "time": 8.7749375,
+          "start": 38,
+          "length": 2
+        },
+        {
+          "time": 9.17975,
+          "start": 40,
+          "length": 2
+        },
+        {
+          "time": 9.4509375,
+          "start": 42,
+          "length": 1
+        },
+        {
+          "time": 9.6363125,
+          "start": 43,
+          "length": 1
+        },
+        {
+          "time": 9.802625,
+          "start": 44,
+          "length": 1
+        },
+        {
+          "time": 10.0613125,
+          "start": 45,
+          "length": 2
+        },
+        {
+          "time": 10.45,
+          "start": 47,
+          "length": 1
+        },
+        {
+          "time": 10.667,
+          "start": 48,
+          "length": 1
+        },
+        {
+          "time": 10.884,
+          "start": 49,
+          "length": 1
+        },
+        {
+          "time": 11.9314375,
+          "start": 51,
+          "length": 1
+        },
+        {
+          "time": 12.174,
+          "start": 52,
+          "length": 2
+        },
+        {
+          "time": 12.4855,
+          "start": 54,
+          "length": 2
+        },
+        {
+          "time": 12.82975,
+          "start": 56,
+          "length": 1
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-5.wav"
+    },
+    {
+      "text": "甄嬛就发现那碗水不对劲。苏培盛这时候也在保护甄嬛。后来温实初说水里有白矾。难怪啊，这水都被动过手脚了！",
+      "marks": [
+        {
+          "time": 0.08,
+          "start": 0,
+          "length": 2
+        },
+        {
+          "time": 0.55775,
+          "start": 2,
+          "length": 1
+        },
+        {
+          "time": 0.74,
+          "start": 3,
+          "length": 2
+        },
+        {
+          "time": 1.1886875,
+          "start": 5,
+          "length": 1
+        },
+        {
+          "time": 1.37,
+          "start": 6,
+          "length": 1
+        },
+        {
+          "time": 1.616125,
+          "start": 7,
+          "length": 1
+        },
+        {
+          "time": 1.8801875,
+          "start": 8,
+          "length": 3
+        },
+        {
+          "time": 3.284875,
+          "start": 12,
+          "length": 1
+        },
+        {
+          "time": 3.4906875,
+          "start": 13,
+          "length": 1
+        },
+        {
+          "time": 3.66525,
+          "start": 14,
+          "length": 1
+        },
+        {
+          "time": 3.9338125,
+          "start": 15,
+          "length": 1
+        },
+        {
+          "time": 4.08175,
+          "start": 16,
+          "length": 2
+        },
+        {
+          "time": 4.49125,
+          "start": 18,
+          "length": 1
+        },
+        {
+          "time": 4.66225,
+          "start": 19,
+          "length": 1
+        },
+        {
+          "time": 4.87325,
+          "start": 20,
+          "length": 2
+        },
+        {
+          "time": 5.263875,
+          "start": 22,
+          "length": 2
+        },
+        {
+          "time": 6.5240625,
+          "start": 25,
+          "length": 2
+        },
+        {
+          "time": 6.95175,
+          "start": 27,
+          "length": 1
+        },
+        {
+          "time": 7.1403125,
+          "start": 28,
+          "length": 1
+        },
+        {
+          "time": 7.31125,
+          "start": 29,
+          "length": 1
+        },
+        {
+          "time": 7.4925625,
+          "start": 30,
+          "length": 1
+        },
+        {
+          "time": 7.7418125,
+          "start": 31,
+          "length": 1
+        },
+        {
+          "time": 7.9589375,
+          "start": 32,
+          "length": 1
+        },
+        {
+          "time": 8.1610625,
+          "start": 33,
+          "length": 1
+        },
+        {
+          "time": 8.35875,
+          "start": 34,
+          "length": 2
+        },
+        {
+          "time": 9.60575,
+          "start": 37,
+          "length": 2
+        },
+        {
+          "time": 9.9804375,
+          "start": 39,
+          "length": 1
+        },
+        {
+          "time": 10.5728125,
+          "start": 41,
+          "length": 1
+        },
+        {
+          "time": 10.7311875,
+          "start": 42,
+          "length": 1
+        },
+        {
+          "time": 10.99225,
+          "start": 43,
+          "length": 1
+        },
+        {
+          "time": 11.1536875,
+          "start": 44,
+          "length": 1
+        },
+        {
+          "time": 11.324125,
+          "start": 45,
+          "length": 1
+        },
+        {
+          "time": 11.512,
+          "start": 46,
+          "length": 1
+        },
+        {
+          "time": 11.707875,
+          "start": 47,
+          "length": 2
+        },
+        {
+          "time": 12.1241875,
+          "start": 49,
+          "length": 1
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-6.wav"
+    },
+    {
+      "text": "苏培盛赶紧换水复验：这回温实初和六阿哥的血是分开的。刚才还融在一起呢，这回就分开了。甄嬛总算能喘口气了。",
+      "marks": [
+        {
+          "time": 0.082625,
+          "start": 0,
+          "length": 1
+        },
+        {
+          "time": 0.287625,
+          "start": 1,
+          "length": 1
+        },
+        {
+          "time": 0.460625,
+          "start": 2,
+          "length": 1
+        },
+        {
+          "time": 0.7223125,
+          "start": 3,
+          "length": 2
+        },
+        {
+          "time": 1.1235625,
+          "start": 5,
+          "length": 1
+        },
+        {
+          "time": 1.3405625,
+          "start": 6,
+          "length": 1
+        },
+        {
+          "time": 1.5975,
+          "start": 7,
+          "length": 1
+        },
+        {
+          "time": 1.8,
+          "start": 8,
+          "length": 1
+        },
+        {
+          "time": 2.4280625,
+          "start": 10,
+          "length": 1
+        },
+        {
+          "time": 2.5891875,
+          "start": 11,
+          "length": 1
+        },
+        {
+          "time": 2.76,
+          "start": 12,
+          "length": 1
+        },
+        {
+          "time": 2.946375,
+          "start": 13,
+          "length": 1
+        },
+        {
+          "time": 3.1145625,
+          "start": 14,
+          "length": 1
+        },
+        {
+          "time": 3.36,
+          "start": 15,
+          "length": 1
+        },
+        {
+          "time": 3.5713125,
+          "start": 16,
+          "length": 1
+        },
+        {
+          "time": 3.7466875,
+          "start": 17,
+          "length": 2
+        },
+        {
+          "time": 4.079,
+          "start": 19,
+          "length": 1
+        },
+        {
+          "time": 4.181375,
+          "start": 20,
+          "length": 1
+        },
+        {
+          "time": 4.43075,
+          "start": 21,
+          "length": 1
+        },
+        {
+          "time": 4.64,
+          "start": 22,
+          "length": 2
+        },
+        {
+          "time": 5.02525,
+          "start": 24,
+          "length": 1
+        },
+        {
+          "time": 5.9785,
+          "start": 26,
+          "length": 2
+        },
+        {
+          "time": 6.4585,
+          "start": 28,
+          "length": 1
+        },
+        {
+          "time": 6.6685,
+          "start": 29,
+          "length": 1
+        },
+        {
+          "time": 6.861875,
+          "start": 30,
+          "length": 1
+        },
+        {
+          "time": 7.0776875,
+          "start": 31,
+          "length": 2
+        },
+        {
+          "time": 7.4145625,
+          "start": 33,
+          "length": 1
+        },
+        {
+          "time": 7.9785,
+          "start": 35,
+          "length": 1
+        },
+        {
+          "time": 8.136875,
+          "start": 36,
+          "length": 1
+        },
+        {
+          "time": 8.4129375,
+          "start": 37,
+          "length": 1
+        },
+        {
+          "time": 8.5985,
+          "start": 38,
+          "length": 2
+        },
+        {
+          "time": 8.9851875,
+          "start": 40,
+          "length": 1
+        },
+        {
+          "time": 9.954125,
+          "start": 42,
+          "length": 2
+        },
+        {
+          "time": 10.4274375,
+          "start": 44,
+          "length": 2
+        },
+        {
+          "time": 10.8814375,
+          "start": 46,
+          "length": 1
+        },
+        {
+          "time": 11.0883125,
+          "start": 47,
+          "length": 1
+        },
+        {
+          "time": 11.304125,
+          "start": 48,
+          "length": 2
+        },
+        {
+          "time": 11.6908125,
+          "start": 50,
+          "length": 1
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-7.wav"
+    },
+    {
+      "text": "祺贵人陷害甄嬛，折腾了半天把自己搭进去了。皇上直接把祺贵人打入冷宫。",
+      "marks": [
+        {
+          "time": 0.0833125,
+          "start": 0,
+          "length": 1
+        },
+        {
+          "time": 0.2851875,
+          "start": 1,
+          "length": 2
+        },
+        {
+          "time": 0.688625,
+          "start": 3,
+          "length": 2
+        },
+        {
+          "time": 1.117125,
+          "start": 5,
+          "length": 2
+        },
+        {
+          "time": 1.95775,
+          "start": 8,
+          "length": 2
+        },
+        {
+          "time": 2.286625,
+          "start": 10,
+          "length": 1
+        },
+        {
+          "time": 2.403,
+          "start": 11,
+          "length": 2
+        },
+        {
+          "time": 2.8644375,
+          "start": 13,
+          "length": 1
+        },
+        {
+          "time": 3.0443125,
+          "start": 14,
+          "length": 2
+        },
+        {
+          "time": 3.44,
+          "start": 16,
+          "length": 1
+        },
+        {
+          "time": 3.641375,
+          "start": 17,
+          "length": 2
+        },
+        {
+          "time": 4.0218125,
+          "start": 19,
+          "length": 1
+        },
+        {
+          "time": 4.9939375,
+          "start": 21,
+          "length": 2
+        },
+        {
+          "time": 5.524,
+          "start": 23,
+          "length": 2
+        },
+        {
+          "time": 5.8630625,
+          "start": 25,
+          "length": 1
+        },
+        {
+          "time": 6.0298125,
+          "start": 26,
+          "length": 1
+        },
+        {
+          "time": 6.219125,
+          "start": 27,
+          "length": 2
+        },
+        {
+          "time": 6.64275,
+          "start": 29,
+          "length": 2
+        },
+        {
+          "time": 6.9853125,
+          "start": 31,
+          "length": 2
+        }
+      ],
+      "src": "/Clarity/studio/assets/gossip-narration/part-8.wav"
+    }
+  ]
+}
