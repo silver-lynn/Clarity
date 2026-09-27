@@ -18,7 +18,7 @@ window.addEventListener('pagehide',()=>{try{localStorage.setItem('livecanvas.stu
 let held=null,heldCount=0,pendingView=null,experience=null,renderedScene=null,captionFrame=null;
 let session=new Session(), pinned=null, selected=null, adapter=null, recording=false, draining=false, demoRun=0, playing=false, saveTimer, toastTimer, latency=null;
 const semanticModel=new SemanticModel(),jevModel=new JevModel();
-const model={cancel(){semanticModel.cancel();jevModel.cancel();},analyze(target,options){return settings.engine==='jev'?jevModel.analyze(target,{key:settings.jevKey,threshold:settings.jevThreshold}):semanticModel.analyze(target,options);}};
+const model={cancel(){semanticModel.cancel();jevModel.cancel();},analyze(target,options){return settings.engine==='jev'?jevModel.analyze(target,{key:settings.jevKey,threshold:settings.jevThreshold,endpoint:'https://clarity-jev-relay.crafty-lynx-0539.chatgpt.site/api/jev',timeoutMs:6500}):semanticModel.analyze(target,options);}};
 const settings={provider:'doubao',cloudKey:'',endpoint:'ws://127.0.0.1:8001/asr',enabled:false,engine:'chat',jevKey:'',jevThreshold:.7,modelEndpoint:'',modelName:'',key:''};
 let settingsReady=Promise.resolve();
 let mode='基础模式', asrLabel='文字输入';
@@ -188,7 +188,20 @@ $('new-session').onclick=async()=>{
 };
 $('decision-engine').onchange=()=>{const jev=$('decision-engine').value==='jev';$('jev-settings').hidden=!jev;$('chat-settings').hidden=jev;};
 $('scene-mode').onchange=()=>{model.cancel();session.close('切换呈现模式');session.viewMode=$('scene-mode').value;if(session.viewMode==='gossip')$('demo-select').value='gossip';render();persist();toast(session.viewMode==='gossip'?'人物关系模式：识别明确人物、关系与事件；可在设置补充人物名单。':'已切换自动图形模式。');};
-$('settings-open').onclick=()=>panel('网页体验版','<p>支持文字输入、实时关键词、结构图、人物关系、时间轴和示例朗读。</p><p>当前使用本地规则绘图，网页尚未开放实时语音识别、JEV 服务和密钥保存。无需填写密钥。</p>');
+$('settings-open').onclick=()=>{
+  panel('JEV 智能判断',`<form id="web-jev-form"><p>填写你自己的 TypeSafe 密钥，让 JEV 判断何时保留关键词、强调结论或切换结构图。</p><label for="web-jev-key">TypeSafe API Key</label><input id="web-jev-key" type="password" autocomplete="off" spellcheck="false" placeholder="粘贴你的密钥" style="display:block;width:100%;margin:10px 0 16px"><label><input id="web-jev-enabled" type="checkbox"> 启用 JEV</label><p style="font-size:13px;color:#64748b">启用后，最近最多 8 段已确认的讲述及候选图会经 Clarity 转发服务发给 TypeSafe，费用由你的账户承担。密钥只保留在当前页面内存，刷新后需重新填写；转发服务不主动保存密钥或讲述内容。</p><p style="font-size:13px;color:#64748b">人物关系和明确数字图仍由原话规则处理。未启用或服务失败时，继续使用基础绘图。</p><div style="display:flex;gap:12px"><button type="submit">应用</button><button id="web-jev-clear" type="button">清除密钥</button></div><p id="web-jev-feedback" role="status"></p></form>`);
+  $('web-jev-key').value=settings.jevKey;
+  $('web-jev-enabled').checked=settings.engine==='jev'&&settings.enabled;
+  $('web-jev-form').onsubmit=event=>{
+    event.preventDefault();const key=$('web-jev-key').value.trim(),enabled=$('web-jev-enabled').checked;
+    if(enabled&&!/^[\x21-\x7e]{1,512}$/.test(key)){$('web-jev-feedback').textContent='请填写有效的 TypeSafe 密钥。';return;}
+    model.cancel();session.epoch++;settings.engine='jev';settings.jevKey=key;settings.enabled=enabled;
+    $('web-jev-key').value='';$('panel').close();mode=enabled?'JEV 待命 · 尚未验证密钥':'基础模式';$('decision-health').textContent=enabled?'输入下一段文字后进行判断':'JEV 已关闭';render();toast(enabled?'已启用。输入下一段文字或播放示例即可验证。':'已切换到基础绘图。');
+  };
+  $('web-jev-clear').onclick=()=>{model.cancel();session.epoch++;settings.jevKey='';settings.enabled=false;$('web-jev-key').value='';$('web-jev-enabled').checked=false;mode='基础模式';$('decision-health').textContent='JEV 已关闭';render();$('web-jev-feedback').textContent='已清除本页密钥。';};
+  $('panel').addEventListener('close',()=>{const input=$('web-jev-key');if(input)input.value='';},{once:true});
+};
+
 $('provider').onchange=()=>{$('cloud-asr-settings').hidden=$('provider').value!=='doubao';$('local-asr-settings').hidden=$('provider').value!=='local';};
 $('provider').onchange();
 $('settings-form').onsubmit=async event=>{

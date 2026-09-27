@@ -44,7 +44,7 @@ export class JevModel {
     if(!Object.keys(candidates).length)return {applied:false,reason:'hold'};
     const started=performance.now();const timer=setTimeout(()=>controller.abort(),settings.timeoutMs||1800);
     try{
-      const response=await fetch('/api/jev',{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json',Authorization:'Bearer '+settings.key},body:JSON.stringify(jevRequest(session,candidates))});
+      const response=await fetch(settings.endpoint||'/api/jev',{method:'POST',signal:controller.signal,headers:{'Content-Type':'application/json',Authorization:'Bearer '+settings.key},body:JSON.stringify(jevRequest(session,candidates))});
       if(!response.ok){if([429,529].includes(response.status))this.retryAfter=Date.now()+30000;throw new Error('Jev 接口返回 '+response.status);}
       const answer=readJevChoice(await response.json(),candidates);
       if(token!==session.epoch)return {applied:false,reason:'stale'};
