@@ -1,0 +1,16 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+!.env.example
+*.dpapi
+work/local-server-data/
+work/asr-evaluation/
+work/models/
+work/whisperlivekit-venv/
+outputs/livecanvas-v2-test-results/
+playwright-report/
+test-results/

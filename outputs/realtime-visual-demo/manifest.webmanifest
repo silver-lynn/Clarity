@@ -1,0 +1,9 @@
+{
+  "name": "言绘 LiveCanvas",
+  "short_name": "LiveCanvas",
+  "description": "Local-first real-time speech visualization",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101126",
+  "theme_color": "#101126"
+}
